@@ -4,11 +4,9 @@
 Testing some features of StockBit.com using gerkhin scenarios in cucumber and using selenium for UI Automation Testing. Written in Java.
 
 There are two feature file:
-1. Login.feature
-This test login features when input are valid or invalid
+1. Login.feature which test login features when input are valid or invalid
 
-2. Comment.feature
-This test comment features when posting or deleting comments
+2. Comment.feature which test comment features when posting or deleting comments
 
 ### Prerequisites
 - Eclipse
