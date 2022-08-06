@@ -93,10 +93,8 @@ public class Steps {
 			}
 		} catch (UnhandledAlertException e){
 			// if there are no popup, check if there are text that contains Stream
-			driver.findElement(By.xpath("//i[contains(text(),'Stream')]"));
 		}
-	    System.out.println("wait for 10 secs");
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.findElement(By.xpath("//i[contains(text(),'Stream')]"));
 	}
 	
 	@When("I post a comment")
